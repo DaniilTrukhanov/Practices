@@ -1,0 +1,21 @@
+#Indentation
+#Example 1
+if 5 > 2:
+  print("Five is greater than two!")
+
+#Example 2
+if 5 > 2:
+  print ("Five is greater than two!")
+if 5 > 2:
+    print ("Five is greater than two!")
+
+#Statements
+print ("pythin is fun!")
+
+#Many statements
+print ("Hello, World!")
+print ("Have a good day.")
+print ("Learning Python is fun!")
+
+#Semicolons
+print ("Hello"); print ("How are you?"); print ("Bye, bye!")
