@@ -1,0 +1,1 @@
+print ("pythin is fun!")
