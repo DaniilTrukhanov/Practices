@@ -1,20 +1,13 @@
-class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+class Kingdom:
+  def __init__(self, kingdom):
+    self.kingdom = "Animals"
 
-  def printname(self):
-    print(self.firstname, self.lastname)
+class Family(Kingdom):
+  def __init__(self, kingdom):
+    super().__init__(kingdom)
+    self.family = "Felines"
 
-class Student(Person):
-  def __init__(self, fname, lname):
-    super().__init__(fname, lname)
-    self.graduationyear = 2019
-
-def welcome(self):
-    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
-
-class Education(Student):
-  def __init__(self, fname, lname, graduationyear):
-    super().__init__(fname, lname, graduationyear)
-    self.speciality = "It manager"
+class Species(Family):
+  def __init__(self, kingdom, family):
+    super().__init__(kingdom, family)
+    self.species = "Cat"
