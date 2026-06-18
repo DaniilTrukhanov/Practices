@@ -1,6 +1,6 @@
 import json
 
-with open("sample-data.json", "r") as file:
+with open(r"C:\Users\truha\Desktop\учёба\PP2\practice4\sample-data.json", "r") as file:
     data = json.load(file)
 
 print ("Intreface Status")
